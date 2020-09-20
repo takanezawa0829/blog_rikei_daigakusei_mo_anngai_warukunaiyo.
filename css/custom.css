@@ -1,0 +1,72 @@
+/* 目次部分に影を追加 */
+.toc-title {
+  box-shadow: 2px 2px 4px #ccc;
+  padding-bottom: 0.3em;
+}
+
+.toc-title a {
+	padding: 0.1em 0.3em;
+	position: relative;
+	display: inline-block;
+	transition: .3s;
+	color: #7399d3;
+}
+.toc-title a::after {
+	position: absolute;
+	bottom: .3em;
+	left: 0;
+	content: '';
+	width: 100%;
+	height: 1px;
+	background-color: #4d4842;
+	opacity: 0;
+	transition: .3s;
+}
+.toc-title a:hover::after {
+	bottom: 0;
+	opacity: 1;
+}
+
+/* チェックボックスを非表示 */
+.toc-check {
+  display: none;
+}
+/* ラベル部分の修飾 */
+.toc-label {
+  background: #3F9FBF;
+  color: #fff;
+  display: flex;
+  margin-top: 0.5em;
+  padding: 6px 6px 0 12px;
+  height: 36px;
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+}
+/* チェックボックスにチェックが入っていない（メニュー表示）状態の修飾 */
+.toc-chapter {
+  height: auto;
+  opacity: 1;
+  padding: 0 10px;
+  margin-left: 1.5em;
+  transition: 0.5s;
+  visibility: visible;
+  font-size: 0.9rem;
+}
+/* チェックボックスにチェックが入った（メニュー非表示）状態の修飾 */
+.toc-check:checked ~ .toc-chapter {
+  height: 0;
+  opacity: 0;
+  padding: 0 10px;
+  visibility: hidden;
+}
+/* メニューの修飾 */
+#TableOfContents > ul > li > ul{
+  display: block;
+  text-align: left;
+  list-style-type: disc;
+}
+#TableOfContents > ul > li > ul > li > ul{
+  padding-left: 0.75em;
+  list-style-type: circle;
+}

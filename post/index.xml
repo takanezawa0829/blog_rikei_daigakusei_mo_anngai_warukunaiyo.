@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>記事 on 理系大学生も案外わるくないよ。</title>
+    <link>https://takanezawa0829.github.io/blog_rikei_daigakusei_mo_anngai_warukunaiyo./post/</link>
+    <description>Recent content in 記事 on 理系大学生も案外わるくないよ。</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja</language>
+    <lastBuildDate>Thu, 02 Mar 2017 12:00:00 -0500</lastBuildDate><atom:link href="https://takanezawa0829.github.io/blog_rikei_daigakusei_mo_anngai_warukunaiyo./post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>川越市の謎解きイベント「川越 はつ恋物語」にいってきたよ</title>
+      <link>https://takanezawa0829.github.io/blog_rikei_daigakusei_mo_anngai_warukunaiyo./post/chapter-3/</link>
+      <pubDate>Sun, 20 Sep 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://takanezawa0829.github.io/blog_rikei_daigakusei_mo_anngai_warukunaiyo./post/chapter-3/</guid>
+      <description>&lt;p&gt;謎解きイベントに行ってきたって話。&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Markdownの書き方（ブログ用保存版）</title>
+      <link>https://takanezawa0829.github.io/blog_rikei_daigakusei_mo_anngai_warukunaiyo./post/chapter-2/</link>
+      <pubDate>Fri, 18 Sep 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://takanezawa0829.github.io/blog_rikei_daigakusei_mo_anngai_warukunaiyo./post/chapter-2/</guid>
+      <description>&lt;p&gt;hugoブログを初めたので記事の書き方を紹介。&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>ヒマヒマ病にかかってブログをつくった話</title>
+      <link>https://takanezawa0829.github.io/blog_rikei_daigakusei_mo_anngai_warukunaiyo./post/chapter-1/</link>
+      <pubDate>Tue, 15 Sep 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://takanezawa0829.github.io/blog_rikei_daigakusei_mo_anngai_warukunaiyo./post/chapter-1/</guid>
+      <description>&lt;p&gt;ブログを作ったキッカケとブログの概要をちょっと。&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>
